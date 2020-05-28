@@ -25,6 +25,7 @@ class LoginPage(BaseView):
 
 
 
+
 # 调试
 if __name__ == '__main__':
     des = desired()
@@ -33,3 +34,5 @@ if __name__ == '__main__':
     b.swipe_down()
     open_YunLock = LoginPage(des)
     open_YunLock.YunLock_click()
+
+
